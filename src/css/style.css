@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgba(77, 241, 239, 1) 11%,
+    rgba(77, 241, 239, 1) 70%,
+    rgb(183, 253, 253) 99%
+  );
+}
+
+.cv-header {
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.head-text {
+  font-family: "Lobster", cursive;
+
+  color: antiquewhite;
+
+  text-shadow: 1px 1px 10px rgb(66, 66, 66);
+}
+
+.my-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.side-bar {
+  background: blue;
+  box-shadow: 2px 0px 5px rgb(80, 79, 79);
+}
+
+@media (min-width: 992px) {
+  .side-bar {
+    max-width: 370px;
+  }
+}
+
+.my-img-sidebar {
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgb(102, 102, 102);
+}
+
+.sec-link {
+  font-family: "PT Serif", serif;
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.side-bar ul {
+  padding-left: 0;
+}
+
+.fixed-ul {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.side-bar li {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.sec-link:hover {
+  color: slategrey;
+}
+
+.h-section {
+  display: inline-block;
+  background-color: darkgray;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 50%;
+  font-family: "PT Serif", serif;
+  color: white;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.content section {
+  margin: 11rem 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.invisible-sec {
+  transform: translateY(40%);
+  opacity: 0;
+}
+
+section h2 {
+  font-family: "Lobster", cursive;
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+section li {
+  padding: 1.5rem;
+  list-style: none;
+}
+
+.skill {
+  display: inline-block;
+  width: 25%;
+  height: 20px;
+  border-radius: 12px;
+}
+
+@media (max-width: 576px) {
+  .skill {
+    width: 75%;
+  }
+}
+
+.skill-rate {
+  height: 100%;
+  border-radius: 12px;
+}
