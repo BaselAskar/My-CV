@@ -9,6 +9,7 @@ const sectionsNames = [
   "projekt",
   "utbildningar",
   "språk",
+  "social-konto",
 ];
 
 //fixed navList
@@ -40,7 +41,7 @@ sectionsNames.forEach((secName) => {
 
   const secNameObserver = new IntersectionObserver(interSection, {
     root: null,
-    threshold: 1,
+    threshold: 0,
   });
 
   secNameObserver.observe(sectionHeader);
