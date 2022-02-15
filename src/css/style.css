@@ -6,26 +6,17 @@
   box-sizing: border-box;
 }
 
-header {
-  background: linear-gradient(
-    180deg,
-    rgba(77, 241, 239, 1) 11%,
-    rgba(77, 241, 239, 1) 70%,
-    rgb(183, 253, 253) 99%
-  );
+.content > h1 {
+  font-family: "Lobaster", cursive;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px #664372, 1px -1px #664372, -1px 1px #664372,
+    -1px -1px #664372;
 }
 
 .cv-header {
   padding: 2rem;
   font-size: 3rem;
-}
-
-.head-text {
-  font-family: "Lobster", cursive;
-
-  color: antiquewhite;
-
-  text-shadow: 1px 1px 10px rgb(66, 66, 66);
 }
 
 .my-img {
@@ -34,7 +25,7 @@ header {
 }
 
 .side-bar {
-  background: blue;
+  background: #664372;
   box-shadow: 2px 0px 5px rgb(80, 79, 79);
 }
 
@@ -60,6 +51,10 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
+.sec-link:focus {
+  box-shadow: none;
+}
+
 .side-bar ul {
   padding-left: 0;
 }
@@ -81,7 +76,8 @@ header {
 
 .h-section {
   display: inline-block;
-  background-color: darkgray;
+  box-shadow: 1px 1px 20px rgb(114, 114, 114);
+  background-color: #664372;
   width: 250px;
   height: 250px;
   text-align: center;
